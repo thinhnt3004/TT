@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc Mừng Trung Thu Vui Vẻ! 🌕</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Mặt trăng -->
+        <div class="moon"></div>
+        
+        <!-- Container cho đèn lồng -->
+        <div class="lanterns-container"></div>
+        
+        <!-- Container cho sao băng -->
+        <div class="shooting-stars"></div>
+        
+        <!-- Pháo hoa -->
+        <div class="fireworks" id="fireworks"></div>
+        
+        <!-- Trái tim chuyển động -->
+        <div class="floating-hearts"></div>
+        
+        <!-- Bánh trung thu bên góc trái và phải -->
+        <div class="moon-cake left">
+            <img 
+                src="1.png" 
+                alt="Bánh trung thu truyền thống" 
+            />
+        </div>
+        
+        <div class="moon-cake right">
+            <img 
+                src="2.png" 
+                alt="Bánh trung thu màu sắc" 
+            />
+        </div>
+        
+        <!-- Nội dung chính -->
+        <div class="content">
+            <h1>🎑 Trung Thu Vui Vẻ! 🎑</h1>
+            
+            <div class="message-container" id="messageContainer">
+                <div class="message" id="message"></div>
+                <span class="blinking-cursor">|</span>
+            </div>
+            
+            <div class="buttons">
+                <button id="nextMessageBtn">Lời chúc tiếp theo 💌</button>
+                <button id="fireworksBtn">Bắn pháo hoa 🎆</button>
+                <button id="randomImageBtn">EM</button>
+            </div>
+            
+            <!-- Hiển thị ảnh ngẫu nhiên -->
+            <div class="random-image-container" id="randomImageContainer"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
